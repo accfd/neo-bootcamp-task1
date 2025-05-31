@@ -1,0 +1,23 @@
+.greeting-card {
+  text-align: center;
+  background: #4a90e2;
+  color: white;
+  padding: 60px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(74,144,226,0.4);
+  user-select: none;
+}
+
+.greeting-card h1 {
+  font-size: 4rem;
+  letter-spacing: 6px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.greeting-card p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  opacity: 0.85;
+}

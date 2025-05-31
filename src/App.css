@@ -1,0 +1,62 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background lembut dan font nyaman */
+body {
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* supaya footer di bawah */
+}
+
+/* Container utama, lebar max 1440px */
+.app {
+  background: #fff;
+  padding: 40px 60px;
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.15);
+  width: 90vw;
+  max-width: 1440px;
+  min-height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* Padding bawah agar footer tidak menutupi konten */
+  padding-bottom: 70px;
+}
+
+/* Baris bawah profile dan skill */
+.content-row {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  width: 100%;
+}
+
+/* Footer styling */
+.footer {
+  text-align: center;
+  padding: 12px 20px;
+  font-size: 0.9rem;
+  color: #555;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  user-select: none;
+  margin-top: 20px;
+  /* biar selalu di bawah halaman tapi gak fixed */
+  position: relative;
+}
